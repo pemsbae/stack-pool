@@ -4,7 +4,7 @@
 (define-data-var total-liquidity uint u0)
 (define-map user-balances { user: principal } { balance: uint, last-deposit: uint })
 
-;; Add liquidity to the pool
+;; Add liquidity to the pool:
 (define-public (add-liquidity (amount uint))
     (begin
         (asserts! (> amount u0) (err u100))

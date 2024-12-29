@@ -1,4 +1,4 @@
-# StackPool
+# StackPool written with Clarity
 
 ## Overview
 StackPool is a decentralized liquidity pool smart contract built using the Clarity programming language on the Stacks blockchain. It allows users to deposit and withdraw tokens, earn proportional rewards based on their contributions and staking duration, and promotes fair and transparent liquidity management.
